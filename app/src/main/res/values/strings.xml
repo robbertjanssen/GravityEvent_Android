@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Gravity</string>
+
+    <string name="facebook_app_id">1079951682062940</string>
+    <string name="allow_access_string">To easily connect with friends and family, allow Gravity access to your contacts and your device\'s location while you use the app.</string>
+    <string name="location_string">\"Gravity\" would like to use your location.\nGravity shows you nearby events To start browsing choose \"OK\"</string>
+    <string name="contacts_string">\"Gravity\" would like to access your contacts.\nThis helps Gravity start building your friends list. To bring in friends from your contacts choose \"OK\"</string>
+    <string name="sms">Gravity will send you an SMS to verify your phone number.</string>
+    <string name="enter_code">Enter your country code and phone number.</string>
+    <string name="enter_name">Enter your name and choose a profile image</string>
+    <string name="sent_sms">We sent an SMS to +1(778)8739781.</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="more_friends">Gravity is better with more friends</string>
+    <string name="post_with_permission">We don\'t use this data and we\'ll never post without your permission.</string>
+    <string name="profile_page">This page only shown if you \ndid not log in w any other platforms</string>
+    <string name="fb_button_text">Log in with facebook</string>
+    <string name="signup_text">Sign Up</string>
+    <string name="have_account">Already have an account?</string>
+    <!--string name="access_description">To easily connect with friends and family, allow Gravity to access your contact and your device's location while you use the app.</string-->
+    <string name="next">Next</string>
+    <string name="btnNotAllow">Don\'t Allow</string>
+    <string name="btnAllow">Allow</string>
+</resources>

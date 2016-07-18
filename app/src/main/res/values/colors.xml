@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBlue">#697cfd</color>
+    <color name="colorDarkBlue">#7734fd</color>
+    <color name="colorDarkSky">#7fb3fd</color>
+    <color name="colorSky">#89d3fd</color>
+    <color name="colorGreen">#68f5da</color>
+    <color name="colorPurple">#7734fd</color>
+    <color name="colorLightPurple">#99aafd</color>
+    <color name="colorFbButton">#697bfc</color>
+    <color name="colorFbButtonPressed">#99abfc</color>
+    <color name="colorWhiteText">#ffffff</color>
+    <color name="noSelectedIndicator">#bfbfbf</color>
+    <color name="selectedIndicator">#68f5da</color>
+</resources>

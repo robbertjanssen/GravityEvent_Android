@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dove.gravity.AllowAccessActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.5"
+            android:background="@color/colorPurple">
+
+            <ImageButton
+                android:layout_width="190dp"
+                android:layout_height="170dp"
+                android:background="@drawable/arrow_to_person"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true"/>
+
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.50"
+            android:background="@drawable/splash_background">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:gravity="center">
+
+                <Button
+                    android:id="@+id/goToNextScreen"
+                    android:layout_width="75dp"
+                    android:layout_height="38dp"
+                    android:background="@drawable/signup_background"
+                    android:text="@string/next"
+                    android:textColor="@color/colorWhiteText"
+                    android:textSize="18dp"
+                    android:textAllCaps="false"
+                    android:gravity="center"
+                    android:layout_marginBottom="20dp"/>
+
+                <LinearLayout
+                    android:id="@+id/progressIndicators"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/selected_indicator_background"
+                        android:layout_marginRight="17dp"/>
+
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/no_selected_indicator_background"
+                        android:layout_marginRight="17dp"/>
+
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/no_selected_indicator_background"
+                        android:layout_marginRight="17dp"/>
+
+                    <ImageButton
+                        android:layout_width="15dp"
+                        android:layout_height="15dp"
+                        android:background="@drawable/no_selected_indicator_background"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <ImageView
+                android:layout_width="310dp"
+                android:layout_height="110dp"
+                android:background="@drawable/gravity_logo_half_colour"
+                android:layout_centerHorizontal="true"
+                android:layout_alignParentBottom="true"/>
+
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="@string/allow_access_string"
+        android:textColor="@color/colorWhiteText"
+        android:textSize="18dp"
+        android:lineSpacingExtra="8dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"/>
+
+</RelativeLayout>
